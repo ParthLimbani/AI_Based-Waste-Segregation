@@ -33,9 +33,6 @@ def upload_image():
         print("*"*20, prediction)
         return render_template('index.html',prediction=classes[prediction])
 
-
-
-
     return render_template('index.html')  # Consider passing the prediction result to the template
 
 if __name__ == '__main__':
